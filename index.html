@@ -11,15 +11,17 @@
   <div class="max-w-[1280px] mx-auto px-20">
     <header class="border-b border-gray-200">
       <div class="flex items-center justify-between py-6">
+        <div class="flex items-center justify-between py-6 gap-4">
         <img src="images/logo.png" alt="CoverAI logo" class="w-[160px] sm:w-[180px] lg:w-[220px]" />
         <nav class="hidden md:flex items-center gap-10 text-base font-medium">
-          <a href="#" class="text-black">Home</a>
-          <a href="#" class="flex items-center gap-1 text-gray-600 hover:text-black">
+          <a href="#" class="text-gray-400 hover:text-black">Home</a>
+          <a href="#" class="flex items-center gap-1 text-gray-400 hover:text-black">
             Features <i class="ri-arrow-down-s-line text-lg"></i>
           </a>
-          <a href="#" class="text-gray-600 hover:text-black">Pricing</a>
-          <a href="#" class="text-gray-600 hover:text-black">FAQ</a>
+          <a href="#" class="text-gray-400 hover:text-black">Pricing</a>
+          <a href="#" class="text-gray-400 hover:text-black">FAQ</a>
         </nav>
+        </div>
         <div class="hidden md:flex gap-4">
           <button class="px-5 py-2 border border-gray-300 rounded-full text-sm font-medium hover:bg-gray-50">Login</button>
           <button class="px-6 py-2 rounded-full text-sm font-medium text-white bg-gradient-to-r from-blue-500 to-purple-500 shadow-md">Get a Demo</button>
@@ -39,40 +41,48 @@
         </div>
       </div>
     </header>
-    <section class="flex flex-col lg:flex-row items-center justify-between gap-12 py-16 lg:py-20">
-      <div class="max-w-xl text-center lg:text-left">
-        <div class="flex flex-wrap items-center justify-center lg:justify-start gap-2 mb-6">
-          <span class="text-sm font-medium">Available in:</span>
-          <img src="images/flag1.png" class="w-6 h-4" alt="US Flag" />
-          <img src="images/flag2.png" class="w-6 h-4" alt="Spain Flag" />
-          <img src="images/flag3.png" class="w-6 h-4" alt="Germany Flag" />
-          <span class="px-2 py-1 text-xs rounded-full bg-gray-100">+20 more</span>
-        </div>
-        <h1 class="text-5xl sm:text-6xl lg:text-[72px] font-bold leading-[1.05] mb-6">
-          Reimaging the <br />
-          <span class="bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">Cover</span> Letter
-        </h1>
-        <p class="text-lg text-gray-600 leading-relaxed mb-8 flex items-start justify-center lg:justify-start gap-3 relative">
-          <span class="mt-1 text-gray-500">→</span>
-          <span>Our revolutionary platform generates unique and impactful cover letters that grab recruiters’ attention and set you apart from the competition.</span>
-        </p>
-        <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-6">
-          <button class="px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-full font-medium shadow-md flex items-center gap-2">
-            Learn More <i class="ri-arrow-right-line"></i>
-          </button>
-          <div class="flex -space-x-3">
-            <img src="images/Ellipse 40.png" class="w-10 h-10 rounded-full border-2 border-white" alt="1" />
-            <img src="images/Ellipse 41.png" class="w-10 h-10 rounded-full border-2 border-white" alt="2" />
-            <img src="images/Ellipse 43.png" class="w-10 h-10 rounded-full border-2 border-white" alt="3" />
-            <img src="images/Ellipse 44.png" class="w-10 h-10 rounded-full border-2 border-white" alt="4" />
-            <span class="flex items-center justify-center w-10 h-10 rounded-full bg-gray-200 text-gray-600 text-sm font-medium border-2 border-white">+</span>
-          </div>
-        </div>
+  <section class="flex flex-col lg:flex-row items-center justify-between gap-12 py-4 lg:py-6 relative overflow-hidden">
+  <div class="max-w-xl text-center lg:text-left">
+    <div class="flex flex-wrap items-center justify-center lg:justify-start gap-2 mb-6">
+      <span class="text-sm font-medium">Available in:</span>
+      <img src="images/flag1.png" class="w-6 h-4" alt="US Flag" />
+      <img src="images/flag2.png" class="w-6 h-4" alt="Spain Flag" />
+      <img src="images/flag3.png" class="w-6 h-4" alt="Germany Flag" />
+      <span class="px-2 py-1 text-xs rounded-full bg-gray-100">+20 more</span>
+    </div>
+    <h1 class="text-5xl sm:text-6xl lg:text-[72px] font-bold leading-[1.05] mb-6">
+      Reimaging the <br />
+      <span class="bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">Cover</span> Letter
+    </h1>
+    <p class="text-lg text-gray-600 leading-relaxed mb-8 flex items-start justify-center lg:justify-start gap-3 relative">
+      <span class="mt-1 text-gray-500">→</span>
+      <span>Our revolutionary platform generates unique and impactful cover letters that grab recruiters’ attention and set you apart from the competition.</span>
+    </p>
+    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-6">
+      <button class="px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-full font-medium shadow-md flex items-center gap-2">
+        Learn More <i class="ri-arrow-right-line"></i>
+      </button>
+      <div class="flex -space-x-3">
+        <img src="images/Ellipse 40.png" class="w-10 h-10 rounded-full border-2 border-white" alt="1" />
+        <img src="images/Ellipse 41.png" class="w-10 h-10 rounded-full border-2 border-white" alt="2" />
+        <img src="images/Ellipse 43.png" class="w-10 h-10 rounded-full border-2 border-white" alt="3" />
+        <img src="images/Ellipse 44.png" class="w-10 h-10 rounded-full border-2 border-white" alt="4" />
+        <span class="flex items-center justify-center w-10 h-10 rounded-full bg-gray-200 text-gray-600 text-sm font-medium border-2 border-white">+</span>
       </div>
-      <div class="relative w-full flex justify-center lg:justify-end">
-        <img src="images\Group 33104 (1).png" alt="Phone Mockup" class="w-[260px] sm:w-[320px] lg:w-[380px] drop-shadow-xl" />
-      </div>
-    </section>
+    </div>
+  </div>
+<div class="relative w-full flex justify-center lg:justify-end">
+    <img src="images/Group 33104 (1).png" alt="Phone Mockup" 
+         class="w-[300px] sm:w-[400px] lg:w-[500px] xl:w-[650px] drop-shadow-xl" />
+  </div>
+ <div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex items-center gap-6">
+    <img src="images/vm.png" alt="vm" 
+         class="w-[50px] sm:w-[70px] lg:w-[150px] opacity-80 pointer-events-none" />
+
+    <img src="images/Frame 1171275361.png" alt="Circle Decoration" 
+         class="w-[40px] sm:w-[60px] lg:w-[100px] opacity-80 pointer-events-none" />
+  </div>
+  </section>
     <section class="py-12">
       <div class="grid md:grid-cols-2 gap-12 items-start">
         <div>
